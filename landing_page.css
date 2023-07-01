@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.log h1{
+     background-color: black;
+     width: 99.5%;
+     height:45px;
+     text-align: center;
+     color: red;
+     font-size: 20px;
+     border-top: 1px solid blue;
+     border-left: 2px solid peru;
+     border-right:2px solid peru;
+     border-bottom:2px solid blue;
+}
+.log img{
+    margin-top:3px;
+    width: 120px;
+    height:30px;
+    border-radius: 2px;
+}
+.heading h1,.aboutus h1{
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 15px;
+    font-size:20px;
+    color: brown;
+}
+.heading p{
+    font-size:10px;
+    margin-top:15px;
+    margin-left: 20px;
+    color:goldenrod;
+    font-style: italic;
+
+}
+.img img {
+    width: 300px;
+    height: 150px;
+    margin-top: -100px;
+    margin-right: 50px;
+    float:right;
+}
+.aboutus p{
+    margin-left:25px;
+    font-size: 10px;
+    color:green;
+}
+.aboutus h2{
+    margin-top: 10px;
+    margin-left:20px;
+    font-size: 15px;
+    color:pink;
+}
+.aboutus img{
+    width: 100px;
+    height: 50px;
+    margin-left: 50px;
+}
+.aboutus h3{
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 12px;
+    color: black;
+    font-style: italic;
+}
+.aboutus p{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 10px;
+    color: blue;
+    font-style: italic;
+}
+.aboutus h5 {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 10px;
+    color:black;
+}
+.aboutus h4 img{
+    float: right;
+    margin-top: -110px;
+    margin-right:380px;
+}
+.aboutus span .head{
+    float: right;
+    margin-top: -60px;
+    margin-right:380px;
+}
+  
+
+.internship h1{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: brown;
+}
+.internship img{
+    width: 500px;
+    height: 300px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.internship ul{
+    margin-left: 135px;
+    margin-top: -300px;
+    color:green;
+}
+.internship ul li p{
+    color:gray;
+    margin-left: 20px;
+    font-size: 10px;
+}
+ 
+.footer h1{
+    margin-top: 10px;
+    background-color: black;
+    width:100%;
+    height: 180px;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.footer h2{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.footer h3{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: bisque;
+}
+.footer h6{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.footer form h4{
+  float: right;
+  margin-right: 250px;
+  margin-top: -110px;
+}
+ .email{
+    float: right;
+    margin-right: 180px;
+    margin-top: -80px;
+    
+}
+.password{
+    float: right;
+    margin-right: 180px;
+    margin-top: -70px;
+}
+.password{
+    float: right;
+    margin-right: 180px;
+    margin-top: -70px;
+}
+.message{
+    float: right;
+    margin-right: 155px;
+    margin-top: -60px;
+    resize: none;
+}
+button{
+    float: right;
+    margin-right: 300px;
+    margin-top: -20px;
+    border-radius: 2px;
+    font-size: 12px;
+    color: brown;
+}
+button::hover{
+ background-color: blanchedalmond;
+}
+
