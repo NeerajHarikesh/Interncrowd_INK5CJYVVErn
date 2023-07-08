@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login_page.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <h6>Welcome to intern crowd</h6>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG6rra51oCbU9FUOi-ed4qN-xbOGa3l8WpjhrJcHWqrIKFzKIgVfDIXuQd32eYtA2m65Q&usqp=CAU"
+      />
+      <div class="form">
+        <form>
+          <label>User name:</label>
+          <input
+            type="text"
+            name="user_name"
+            placeholder="Enter Name"
+            pattern="[a-z]{1,25}"
+            title="lowercase & no-gap between letter e.g.neeraj"
+            required
+          /><br /><br />
+          <label>Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="inputpass"
+            placeholder="Enter Password"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            title="least one number and one uppercase and lowercase letter, length 8 or more"
+            required
+          />
+          <input type="checkbox" class="showpass" onclick="myFunction()" />
+          <label class="showpass">Show Password</label>
+        
+          <button type="submit">Login</button>
+          <button type="submit" onclick="register()">Register New User</button>
+          <p>Forget Password ?</p>
+          <a href="Reset_Password.html" class="Click">ClickHere</a>
+        </form>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("inputpass");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+     
+     //Register New User
+      function register(){
+        window.location.assign("Register_Page.html")
+      }
+    </script>
+  </body>
+</html>

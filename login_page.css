@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:310px;
+    height:300px;
+    border-top: 1.8px solid red;
+    border-right: 1.5px solid yellow;
+    border-bottom: 1.5px solid green;
+    border-left: 1.5px solid yellow;
+    box-shadow: 1px 2px 3px 4px gray;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 280px;
+  }
+.container h6{
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-left:70px;
+    color:brown;
+}
+.container img{
+    width: 80px;
+    height: 50px;
+    margin-left: 100px;
+}
+.form{
+    margin-top:25px;
+    margin-left:20px;
+}
+.form label{
+    font-size: 15px;
+    margin-left: 10px;
+    color: brown;
+}
+.form input{
+    font-size: 12px;
+    color: black;
+}
+.form input:hover{
+    border: 2px solid brown;
+}
+.form .showpass{
+    font-size:8px;
+    color:black;
+    float: right;
+    margin-right:25px;
+    margin-top: 5px;
+}
+.form .showpass type{
+    font-size:5px
+    
+}
+
+.form button{
+    margin-top: 30px;
+    font-size: 10px;
+    margin-left:5px;
+    width: 90px;
+    height: 30px;
+    color: black;
+    background-color:lightcoral;
+    border: 3px solid lightgray;
+    border-radius:4px;
+}
+
+.form button:hover{
+    background-color: brown;
+    
+}
+.form  a{
+    font-size: 10px;
+    margin-left: 200px;
+    margin-top: 100px;
+    
+}
+.form p{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 20px;
+    color: brown;
+}
+.form .Click{
+    font-size:10px;
+    float: right;
+    margin-right:130px;
+    margin-top:-12px;
+}
+.form .Click:hover{
+    color: brown;
+    margin-left: -50px;
+}
+

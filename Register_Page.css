@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 400px;
+    height: 390px;
+    margin-top: 20px;
+    margin-left: 230px;  
+    border-top: 1.8px solid red;
+    border-right: 1.5px solid yellow;
+    border-bottom: 1.5px solid green;
+    border-left: 1.5px solid yellow;
+    box-shadow: 1px 2px 3px 4px gray;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+img{
+    width:250px;
+    height: 80px;
+    float:right;
+    margin-right:10px;
+}
+.form label{
+    font-size: 13px;
+    margin-left: 12px;
+    color: brown;
+   
+}
+.form input {
+    font-size: 10px;
+    width:150px;
+    height: 12px;
+    margin-left:8px;
+    color:black;
+    
+}
+.form input:hover{
+    border: 2px solid brown;
+}
+button{
+    font-size: 15px;
+    width: 60px;
+    height: 25px;
+    margin-left: 20px;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: brown;
+}
+.showpass{
+    float: right;
+    margin-top:-10px;
+    margin-right:-160px;
+    font-size:10px;
+    color:black;
+}
+.form .checkbox{
+    float: right;
+  margin-right:150px;
+  margin-top:-10px;
+
+}
+
+a{
+    font-size: 10px;
+    color: black;
+    margin-left: 10px;
+}
+a:hover{
+    color: brown;
+}
